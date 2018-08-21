@@ -22,8 +22,8 @@ namespace Microcharts
         /// </summary>
         public PointChart()
         {
-            this.LabelOrientation = Orientation.Default;
-            this.ValueLabelOrientation = Orientation.Default;
+            this.LabelOrientation = Orientation.Horizontal;
+            this.ValueLabelOrientation = Orientation.Horizontal;
         }
 
         #endregion

@@ -79,7 +79,7 @@ namespace Microcharts
         /// <param name="headerHeight">The Header height.</param>
         protected void DrawBars(SKCanvas canvas, SKPoint[] points, SKSize itemSize, float origin, float headerHeight)
         {
-            const float MinBarHeight = 4;
+            const float MinBarHeight = 0;
             if (points.Length > 0)
             {
                 for (int i = 0; i < this.Entries.Count(); i++)
